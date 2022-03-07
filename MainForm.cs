@@ -88,6 +88,41 @@ namespace VirtualKaikei
             cell = cell.Replace("\"", "'");
             return "\"" + cell + "\"";
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            gridView.Rows.Clear();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void mnuHelp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Version 0.1");
+        }
+
+        private void èIóπXToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ï€ë∂SToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.btnSave_Click(sender, e);
+        }
+
+        private void äJÇ≠OToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TODO");
+        }
+
+        private void êVãKNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnClear_Click(sender, e);
+        }
     }
 }
 

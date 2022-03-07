@@ -254,12 +254,12 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DummyKaikei"
         "ProductCode" = "8:{7E3F53AF-6C71-4B70-BCB1-7667F7C1BF81}"
-        "PackageCode" = "8:{546C4357-3288-49F6-8E13-7C58F8247150}"
+        "PackageCode" = "8:{396E58AE-4977-41A1-A8D4-3411791D124F}"
         "UpgradeCode" = "8:{EBA3452C-CE6F-455E-B518-A9C09344E676}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
-        "DetectNewerInstalledVersion" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:kujirahand.com"
@@ -374,6 +374,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_37F7DA2E38D8486DA0DEA4E019485BF0"
+            {
+            "Name" = "8:ダミー会計"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_65C647AB9E8042F6AD8F8528CD15744E"
+            "Folder" = "8:_0FC207C190644508B61A1CA7D2F76E8B"
+            "WorkingFolder" = "8:_DFF0861A3BC84BF3887347E623097633"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_572469C3313749EDBFB4BE86732FB32C"
+            {
+            "Name" = "8:ダミー会計"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_FF73523BC4D2475087D6D2F4183082BA"
+            "Folder" = "8:_FF73523BC4D2475087D6D2F4183082BA"
+            "WorkingFolder" = "8:_FF73523BC4D2475087D6D2F4183082BA"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
